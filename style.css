@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Croissant+One&family=Days+One&display=swap');
+body{
+    background-color:aliceblue;
+    
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color:gold;
+    font-size:100px;
+}
+.order-form{
+    background-image:url('https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png');
+    
+    
+    width:100%;
+}
+.order-form a{
+    text-align: center;
+    color:gold;
+    font-size:50px;
+    text-decoration:none;
+}
+h5{
+    text-align: center;
+    color:gold;
+    font-size:50px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+    width:100%;
+    margin:0px;
+}
+.parallax-window2 {
+    min-height: 800px;
+    background: transparent;
+    width:100%;
+    margin:0px;
+}
+.title{
+    background-image:url('https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png');
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+.subtitle{
+   
+    background-image:url('https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png');
+    
+    
+   width:100%;
+    
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    right:50%;
+    
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
