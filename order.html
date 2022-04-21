@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css"></link>
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDVM38BPT0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JDVM38BPT0');
+</script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Order Form</h1>
+    <div class="form">
+    <h3>What is your name?</h3>
+    <input class="name"></input>
+    <h3>What is your email?</h3>
+    <input class="email"></input>
+    <h3>How many do you want?</h5><br>
+    <input placeholder="" class="quant"></input>
+    <h3>Which of the following components do you want?</h3>
+    <input type='checkbox' class="band">Band-aids</input><br>
+    <input type='checkbox' class="ball">Cotton balls</input><br>
+    <input type='checkbox' class="qtip">Q-tips</input><br>
+    <input type='checkbox' class="oint">Wound ointment</input><br>
+    <input type='checkbox' class="iod">Iodine</input><br>
+    <h3>Where do you want them delivered?</h3>
+    <input class="loc"></input><br>
+    <button class="sub" value="submit">submit</button>
+</div>
+    <script src="order.js"></script>
+</body>
+</html>

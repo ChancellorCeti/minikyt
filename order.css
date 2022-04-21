@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Croissant+One&family=Days+One&display=swap');
+input{
+    margin-left:30px;
+    font-family: 'Croissant One', cursive;
+}
+.submit{
+    margin-top:10px;
+}
+h3{
+    font-family: 'Days One', sans-serif;
+}
+h1{
+    font-family: 'Black Ops One', cursive;
+}
+.form{
+    border:dashed;
+    width:100%;
+    text-align:center;
+    align-items:center;
+}
+*{
+    text-align:center;
+    
+}
+body{
+    background-color:blanchedalmond;
+}
